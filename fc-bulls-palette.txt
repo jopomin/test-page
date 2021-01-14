@@ -1,0 +1,7 @@
+FC Bulls - Palette
+
+Dark Purple:               #3B1C32;
+Dark Electric Blue:        #53687e;
+Pictorial Carmine:         #CA054D;
+Beige:                     #F5F7DC;
+Yellow Orange Color Wheel: #FF9505;

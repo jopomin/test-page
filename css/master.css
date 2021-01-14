@@ -6,4 +6,140 @@
 
 body {
   background: #F5F7DC;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+nav {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.top-nav {
+  height: 40px;
+  background: #3B1C32;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-nav a:hover {
+  color: #FF9505;
+}
+
+.top-left-nav {
+  margin-left: 5%;
+  width: 400px;
+  height: 100%;
+}
+
+.top-left-nav a:active {
+  color: #CA054D;
+}
+
+.top-right-nav {
+  margin-right: 5%;
+  width: 250px;
+  height: 100%;
+}
+
+.top-right-nav a:active {
+  color: #fff;
+}
+
+.top-left-nav ul, .top-right-nav ul,
+.bottom-left-nav ul, .bottom-right-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.top-left-nav ul li, .top-right-nav ul li
+.bottom-left-nav ul li, .bottom-right-nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.cta-top-nav {
+  background: #FF9505;
+  color: #CA054D;
+  border-radius: 7px;
+  padding: 5px 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.cta-top-nav:hover {
+  background: #CA054D;
+  color: #FF9505;
+  cursor: pointer;
+}
+
+.cta-top-nav:focus {
+  outline: none;
+}
+
+.cta-top-nav:active {
+  color: #fff;
+  cursor: pointer;
+}
+
+.fa {
+  font-size: 25px;
+  padding: 5px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #CA054D;
+}
+
+.bottom-nav {
+  height: 120px;
+  background: #CA054D;
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-left-nav {
+  margin-left: 5%;
+  width: 550px;
+  height: 100%;
+}
+
+.bottom-right-nav {
+  margin-right: 5%;
+  width: 450px;
+  height: 100%;
+}
+
+.bottom-nav a:hover {
+  color: #FF9505;
+}
+
+.bottom-nav a:active {
+  color: #3B1C32;
+}
+
+.bottom-nav ul li:last-child {
+  color: #FF9505;
 }
