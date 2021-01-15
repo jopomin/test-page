@@ -143,3 +143,16 @@ nav ul li {
 .bottom-nav ul li:last-child {
   color: #FF9505;
 }
+
+.logo-nav {
+  width: 240px;
+  height: 160px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.logo-nav img {
+  height: 100%;
+}
